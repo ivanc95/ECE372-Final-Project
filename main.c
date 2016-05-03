@@ -169,7 +169,7 @@ int main(void)
                             accelerator(0,100);
                             break;
                         case go:
-                            accelerator(50,50);
+                            accelerator(100,100);
                             break;
                         default:
                             q = go;

@@ -8,7 +8,6 @@
       <itemPath>config.h</itemPath>
       <itemPath>interrupt.h</itemPath>
       <itemPath>keypad.h</itemPath>
-      <itemPath>lcd.h</itemPath>
       <itemPath>pwm.h</itemPath>
       <itemPath>switch.h</itemPath>
       <itemPath>timer.h</itemPath>
@@ -23,7 +22,6 @@
       <itemPath>adc.c</itemPath>
       <itemPath>interrupt.c</itemPath>
       <itemPath>keypad.c</itemPath>
-      <itemPath>lcd.c</itemPath>
       <itemPath>main.c</itemPath>
       <itemPath>pwm.c</itemPath>
       <itemPath>switch.c</itemPath>
