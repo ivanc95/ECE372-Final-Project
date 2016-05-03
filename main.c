@@ -163,10 +163,10 @@ int main(void)
                 else if(IR == 0) {
                     switch(q) {
                         case right:
-                            accelerator(60,-20);
+                            accelerator(60,0);
                             break;
                         case left:
-                            accelerator(-20,60);
+                            accelerator(0,60);
                             break;
                         case go:
                             accelerator(50,50);
