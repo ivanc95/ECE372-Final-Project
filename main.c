@@ -133,40 +133,40 @@ int main(void)
             case go:
                 IR = IR_Output();
                 if(IR == 2) {
-                    accelerator(80,80);
+                    accelerator(100,100);
                 }
                 else if( IR == 1) {
                     q = left;
-                    accelerator(0,70);
+                    accelerator(0,100);
                     delayMs(10);
-                    accelerator(80,80);
-                    delayMs(20);
+                    accelerator(100,100);
+                    delayMs(5);
                 }
                 else if(IR == 3){
                     //delayMs(50);
                     q = left;
-                    accelerator(0,50);
+                    accelerator(0,100);
                 }
                 else if( IR == 4) {
                     q = right;
-                    accelerator(70,0);
+                    accelerator(100,0);
                     delayMs(10);
-                    accelerator(80,80);
-                    delayMs(20);
+                    accelerator(100,100);
+                    delayMs(5);
                     
                 }
                 else if(IR == 6){
                     //delayMs(50);
                     q = right;
-                    accelerator(50,0);
+                    accelerator(100,0);
                 }
                 else if(IR == 0) {
                     switch(q) {
                         case right:
-                            accelerator(60,0);
+                            accelerator(100,0);
                             break;
                         case left:
-                            accelerator(0,60);
+                            accelerator(0,100);
                             break;
                         case go:
                             accelerator(50,50);
