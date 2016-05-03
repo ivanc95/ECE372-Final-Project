@@ -138,20 +138,20 @@ int main(void)
                 }
                 else if( IR == 1) {
                     q = left;
-                    accelerator(0,70);
-                    delayMs(10);
+                    accelerator(0,100);
+                    delayMs(20);
                     accelerator(70,70);
                     delayMs(30);
                 }
                 else if(IR == 3){
                     delayMs(50);
                     q = left;
-                    accelerator(-80,80);
+                    accelerator(-60,60);
                 }
                 else if( IR == 4) {
                     q = right;
-                    accelerator(70,0);
-                    delayMs(10);
+                    accelerator(100,0);
+                    delayMs(20);
                     accelerator(70,70);
                     delayMs(30);
                     
@@ -159,7 +159,7 @@ int main(void)
                 else if(IR == 6){
                     delayMs(50);
                     q = right;
-                    accelerator(80,-80);
+                    accelerator(60,-60);
                 }
                 else if(IR == 0) {
                     switch(q) {
