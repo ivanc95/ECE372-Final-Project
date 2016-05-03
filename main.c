@@ -137,26 +137,26 @@ int main(void)
                 }
                 else if( IR == 1) {
                     q = left;
-                    accelerator(-20,80);
+                    accelerator(0,70);
                     delayMs(10);
                     accelerator(80,80);
                     delayMs(20);
                 }
                 else if(IR == 3){
-                    delayMs(50);
+                    //delayMs(50);
                     q = left;
                     accelerator(0,50);
                 }
                 else if( IR == 4) {
                     q = right;
-                    accelerator(80,-20);
+                    accelerator(70,0);
                     delayMs(10);
                     accelerator(80,80);
                     delayMs(20);
                     
                 }
                 else if(IR == 6){
-                    delayMs(50);
+                    //delayMs(50);
                     q = right;
                     accelerator(50,0);
                 }
