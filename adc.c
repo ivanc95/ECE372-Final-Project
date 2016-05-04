@@ -47,13 +47,13 @@ int IR_Output(void) {
             val_2 = ADC1BUF2 + 210;
             val_3 = ADC1BUF4 + 160;
 			
-			if(val_1 > 650) {
+			if(val_1 > 600) {
 				output |= 1;
 			}
-			if(val_2 > 650) {
+			if(val_2 > 600) {
 				output |= 2;
 			}
-			if(val_3 > 650) {
+			if(val_3 > 600) {
 				output |= 4;
 			}
 			

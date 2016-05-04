@@ -15,6 +15,7 @@
 
 #include <xc.h>
 #include <sys/attribs.h>
+
 #include "lcd.h"
 #include "timer.h"
 #include "config.h"
@@ -133,44 +134,43 @@ int main(void)
             case go:
                 IR = IR_Output();
                 if(IR == 2) {
-                    q = go;
                     accelerator(100,100);
                 }
                 else if( IR == 1) {
                     q = left;
-                    accelerator(0,70);
+                    accelerator(0,100);
                     delayMs(10);
-                    accelerator(70,70);
-                    delayMs(30);
+                    accelerator(100,100);
+                    delayMs(5);
                 }
                 else if(IR == 3){
-                    delayMs(50);
+                    //delayMs(50);
                     q = left;
-                    accelerator(-80,80);
+                    accelerator(0,100);
                 }
                 else if( IR == 4) {
                     q = right;
-                    accelerator(70,0);
+                    accelerator(100,0);
                     delayMs(10);
-                    accelerator(70,70);
-                    delayMs(30);
+                    accelerator(100,100);
+                    delayMs(5);
                     
                 }
                 else if(IR == 6){
-                    delayMs(50);
+                    //delayMs(50);
                     q = right;
-                    accelerator(80,-80);
+                    accelerator(100,0);
                 }
                 else if(IR == 0) {
                     switch(q) {
                         case right:
-                            accelerator(60,-20);
+                            accelerator(100,0);
                             break;
                         case left:
-                            accelerator(-20,60);
+                            accelerator(0,100);
                             break;
                         case go:
-                            accelerator(50,50);
+                            accelerator(100,100);
                             break;
                         default:
                             q = go;
@@ -178,6 +178,20 @@ int main(void)
                             break;
                     }
                 }
+//                else if(IR == 7) {
+//                    switch(q) {
+//                        case right:
+//                            accelerator(60,-20);
+//                            break;
+//                        case left:
+//                            accelerator(-20,60);
+//                            break;
+//                        default:
+//                            q = go;
+//                            accelerator(50,50);
+//                            break;
+//                    }
+//                }
                 if(PORTDbits.RD6==0) // Button released
                     {
                         state=waitf;
