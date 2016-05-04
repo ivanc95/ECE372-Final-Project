@@ -1,7 +1,3 @@
-
-Optional file libmchp_peripheral.a not found
-
-Optional file libmchp_peripheral_32MX470F512L.a not found
 Archive member included because of file (symbol)
 
 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
@@ -244,11 +240,11 @@ Discarded input sections
  .reginfo       0x00000000       0x18 build/default/production/adc.o
  .reginfo       0x00000000       0x18 build/default/production/interrupt.o
  .reginfo       0x00000000       0x18 build/default/production/keypad.o
- .reginfo       0x00000000       0x18 build/default/production/lcd.o
  .reginfo       0x00000000       0x18 build/default/production/main.o
  .reginfo       0x00000000       0x18 build/default/production/pwm.o
  .reginfo       0x00000000       0x18 build/default/production/switch.o
  .reginfo       0x00000000       0x18 build/default/production/timer.o
+ .reginfo       0x00000000       0x18 build/default/production/lcd.o
  .reginfo       0x00000000       0x18 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX470F512L/default_isr_vectors.o
  .discard       0x00000000       0xb8 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX470F512L/default_isr_vectors.o
  .reginfo       0x00000000       0x18 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/pic32_software_reset.o
@@ -336,21 +332,21 @@ LOAD /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../.
 LOAD build/default/production/adc.o
 LOAD build/default/production/interrupt.o
 LOAD build/default/production/keypad.o
-LOAD build/default/production/lcd.o
 LOAD build/default/production/main.o
 LOAD build/default/production/pwm.o
 LOAD build/default/production/switch.o
 LOAD build/default/production/timer.o
+LOAD build/default/production/lcd.o
                 0x00000001                __MPLAB_BUILD = 0x1
 LOAD /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX470F512L/default_isr_vectors.o
 LOAD /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/pic32_software_reset.o
                 0x00000400                PROVIDE (_min_stack_size, 0x400)
 LOAD /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX470F512L/processor.o
 START GROUP
-LOAD libmchp_peripheral.a
+LOAD /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libmchp_peripheral.a
 END GROUP
 START GROUP
-LOAD libmchp_peripheral_32MX470F512L.a
+LOAD /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libmchp_peripheral_32MX470F512L.a
 END GROUP
                 0x00000001                PROVIDE (_vector_spacing, 0x1)
                 0x9fc01000                _ebase_address = 0x9fc01000
@@ -938,11 +934,11 @@ END GROUP
  .mdebug.abi32  0xa0000014        0x0 build/default/production/adc.o
  .mdebug.abi32  0xa0000014        0x0 build/default/production/interrupt.o
  .mdebug.abi32  0xa0000014        0x0 build/default/production/keypad.o
- .mdebug.abi32  0xa0000014        0x0 build/default/production/lcd.o
  .mdebug.abi32  0xa0000014        0x0 build/default/production/main.o
  .mdebug.abi32  0xa0000014        0x0 build/default/production/pwm.o
  .mdebug.abi32  0xa0000014        0x0 build/default/production/switch.o
  .mdebug.abi32  0xa0000014        0x0 build/default/production/timer.o
+ .mdebug.abi32  0xa0000014        0x0 build/default/production/lcd.o
  .mdebug.abi32  0xa0000014        0x0 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
  .mdebug.abi32  0xa0000014        0x0 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
  .mdebug.abi32  0xa0000014        0x0 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
@@ -994,11 +990,11 @@ END GROUP
                                  0x3d (size before relaxing)
  .comment       0x00000000       0x3d build/default/production/interrupt.o
  .comment       0x00000000       0x3d build/default/production/keypad.o
- .comment       0x00000000       0x3d build/default/production/lcd.o
  .comment       0x00000000       0x3d build/default/production/main.o
  .comment       0x00000000       0x3d build/default/production/pwm.o
  .comment       0x00000000       0x3d build/default/production/switch.o
  .comment       0x00000000       0x3d build/default/production/timer.o
+ .comment       0x00000000       0x3d build/default/production/lcd.o
  .comment       0x00000000       0x3d /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
  .comment       0x00000000       0x3d /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
  .comment       0x00000000       0x3d /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
@@ -1028,15 +1024,15 @@ END GROUP
  .debug_aranges
                 0x00000040       0x20 build/default/production/keypad.o
  .debug_aranges
-                0x00000060       0x20 build/default/production/lcd.o
+                0x00000060       0x20 build/default/production/main.o
  .debug_aranges
-                0x00000080       0x20 build/default/production/main.o
+                0x00000080       0x20 build/default/production/pwm.o
  .debug_aranges
-                0x000000a0       0x20 build/default/production/pwm.o
+                0x000000a0       0x20 build/default/production/switch.o
  .debug_aranges
-                0x000000c0       0x20 build/default/production/switch.o
+                0x000000c0       0x20 build/default/production/timer.o
  .debug_aranges
-                0x000000e0       0x20 build/default/production/timer.o
+                0x000000e0       0x20 build/default/production/lcd.o
  .debug_aranges
                 0x00000100       0x20 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
  .debug_aranges
@@ -1056,11 +1052,11 @@ END GROUP
  .debug_info    0x00000000      0xe62 build/default/production/adc.o
  .debug_info    0x00000e62      0x891 build/default/production/interrupt.o
  .debug_info    0x000016f3     0x134e build/default/production/keypad.o
- .debug_info    0x00002a41      0x7c2 build/default/production/lcd.o
- .debug_info    0x00003203      0x902 build/default/production/main.o
- .debug_info    0x00003b05      0x8be build/default/production/pwm.o
- .debug_info    0x000043c3      0xf6c build/default/production/switch.o
- .debug_info    0x0000532f      0xb25 build/default/production/timer.o
+ .debug_info    0x00002a41      0x902 build/default/production/main.o
+ .debug_info    0x00003343      0x8be build/default/production/pwm.o
+ .debug_info    0x00003c01      0xf6c build/default/production/switch.o
+ .debug_info    0x00004b6d      0xb25 build/default/production/timer.o
+ .debug_info    0x00005692      0x7c2 build/default/production/lcd.o
  .debug_info    0x00005e54       0xe3 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
  .debug_info    0x00005f37       0xbd /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
  .debug_info    0x00005ff4       0xc5 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
@@ -1072,11 +1068,11 @@ END GROUP
  .debug_abbrev  0x00000000       0xcf build/default/production/adc.o
  .debug_abbrev  0x000000cf      0x14e build/default/production/interrupt.o
  .debug_abbrev  0x0000021d      0x10b build/default/production/keypad.o
- .debug_abbrev  0x00000328      0x16c build/default/production/lcd.o
- .debug_abbrev  0x00000494      0x125 build/default/production/main.o
- .debug_abbrev  0x000005b9      0x114 build/default/production/pwm.o
- .debug_abbrev  0x000006cd       0x93 build/default/production/switch.o
- .debug_abbrev  0x00000760      0x148 build/default/production/timer.o
+ .debug_abbrev  0x00000328      0x125 build/default/production/main.o
+ .debug_abbrev  0x0000044d      0x114 build/default/production/pwm.o
+ .debug_abbrev  0x00000561       0x93 build/default/production/switch.o
+ .debug_abbrev  0x000005f4      0x148 build/default/production/timer.o
+ .debug_abbrev  0x0000073c      0x16c build/default/production/lcd.o
  .debug_abbrev  0x000008a8       0x28 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
  .debug_abbrev  0x000008d0       0x28 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
  .debug_abbrev  0x000008f8       0x28 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
@@ -1088,11 +1084,11 @@ END GROUP
  .debug_line    0x00000000       0xd2 build/default/production/adc.o
  .debug_line    0x000000d2      0x11a build/default/production/interrupt.o
  .debug_line    0x000001ec      0x175 build/default/production/keypad.o
- .debug_line    0x00000361      0x223 build/default/production/lcd.o
- .debug_line    0x00000584      0x11c build/default/production/main.o
- .debug_line    0x000006a0      0x12d build/default/production/pwm.o
- .debug_line    0x000007cd       0xc6 build/default/production/switch.o
- .debug_line    0x00000893       0xd1 build/default/production/timer.o
+ .debug_line    0x00000361      0x11c build/default/production/main.o
+ .debug_line    0x0000047d      0x12d build/default/production/pwm.o
+ .debug_line    0x000005aa       0xc6 build/default/production/switch.o
+ .debug_line    0x00000670       0xd1 build/default/production/timer.o
+ .debug_line    0x00000741      0x223 build/default/production/lcd.o
  .debug_line    0x00000964       0x97 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
  .debug_line    0x000009fb       0x84 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
  .debug_line    0x00000a7f       0x88 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
@@ -1104,11 +1100,11 @@ END GROUP
  .debug_frame   0x00000000       0x50 build/default/production/adc.o
  .debug_frame   0x00000050      0x180 build/default/production/interrupt.o
  .debug_frame   0x000001d0       0xd0 build/default/production/keypad.o
- .debug_frame   0x000002a0      0x12c build/default/production/lcd.o
- .debug_frame   0x000003cc       0x2c build/default/production/main.o
- .debug_frame   0x000003f8       0xc8 build/default/production/pwm.o
- .debug_frame   0x000004c0       0x30 build/default/production/switch.o
- .debug_frame   0x000004f0       0x70 build/default/production/timer.o
+ .debug_frame   0x000002a0       0x2c build/default/production/main.o
+ .debug_frame   0x000002cc       0xc8 build/default/production/pwm.o
+ .debug_frame   0x00000394       0x30 build/default/production/switch.o
+ .debug_frame   0x000003c4       0x70 build/default/production/timer.o
+ .debug_frame   0x00000434      0x12c build/default/production/lcd.o
  .debug_frame   0x00000560       0x2c /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
  .debug_frame   0x0000058c       0x20 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
  .debug_frame   0x000005ac       0x20 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
@@ -1120,11 +1116,11 @@ END GROUP
  .debug_str     0x00000000        0x0 build/default/production/adc.o
  .debug_str     0x00000000       0x25 build/default/production/interrupt.o
  .debug_str     0x00000025        0x8 build/default/production/keypad.o
- .debug_str     0x0000002d       0x17 build/default/production/lcd.o
- .debug_str     0x00000044        0x0 build/default/production/main.o
- .debug_str     0x00000044        0xe build/default/production/pwm.o
- .debug_str     0x00000052        0x0 build/default/production/switch.o
- .debug_str     0x00000052        0x0 build/default/production/timer.o
+ .debug_str     0x0000002d        0x0 build/default/production/main.o
+ .debug_str     0x0000002d        0xe build/default/production/pwm.o
+ .debug_str     0x0000003b        0x0 build/default/production/switch.o
+ .debug_str     0x0000003b        0x0 build/default/production/timer.o
+ .debug_str     0x0000003b       0x17 build/default/production/lcd.o
  .debug_str     0x00000052        0x0 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
  .debug_str     0x00000052        0x0 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
  .debug_str     0x00000052        0x0 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
@@ -1170,15 +1166,15 @@ END GROUP
  .gnu.attributes
                 0x00000020       0x10 build/default/production/keypad.o
  .gnu.attributes
-                0x00000030       0x10 build/default/production/lcd.o
+                0x00000030       0x10 build/default/production/main.o
  .gnu.attributes
-                0x00000040       0x10 build/default/production/main.o
+                0x00000040       0x10 build/default/production/pwm.o
  .gnu.attributes
-                0x00000050       0x10 build/default/production/pwm.o
+                0x00000050       0x10 build/default/production/switch.o
  .gnu.attributes
-                0x00000060       0x10 build/default/production/switch.o
+                0x00000060       0x10 build/default/production/timer.o
  .gnu.attributes
-                0x00000070       0x10 build/default/production/timer.o
+                0x00000070       0x10 build/default/production/lcd.o
  .gnu.attributes
                 0x00000080       0x10 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
  .gnu.attributes
@@ -1579,6 +1575,12 @@ LOAD data_init
  .data          0x00000000        0x0 /Applications/microchip/xc32/v1.40/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX470F512L/default_isr_vectors.o
 
 .bss            0x00000000        0x0
+ .bss           0x00000000        0x0 build/default/production/lcd.o
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 build/default/production/lcd.o
+
+.bss            0x00000000        0x0
  .bss           0x00000000        0x0 build/default/production/timer.o
 
 .data           0x00000000        0x0
@@ -1601,12 +1603,6 @@ LOAD data_init
 
 .data           0x00000000        0x0
  .data          0x00000000        0x0 build/default/production/main.o
-
-.bss            0x00000000        0x0
- .bss           0x00000000        0x0 build/default/production/lcd.o
-
-.data           0x00000000        0x0
- .data          0x00000000        0x0 build/default/production/lcd.o
 
 .bss            0x00000000        0x0
  .bss           0x00000000        0x0 build/default/production/keypad.o
@@ -1767,8 +1763,8 @@ LOAD data_init
                 0x9d00398c                _nmi_handler
 
 .rodata         0x9d0039a4       0x10
- .rodata        0x9d0039a4        0x8 build/default/production/lcd.o
- .rodata        0x9d0039ac        0x8 build/default/production/pwm.o
+ .rodata        0x9d0039a4        0x8 build/default/production/pwm.o
+ .rodata        0x9d0039ac        0x8 build/default/production/lcd.o
 
 .text._on_reset
                 0x9d0039b4        0x8
